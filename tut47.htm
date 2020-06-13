@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope and conditionals</title>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li>line 1</li>
+            <li>line 2</li>
+            <li>line 3</li>
+            <li>line 4</li>
+            <li>line 5</li>
+            <li>line 6</li>
+            <li>line 7</li>
+        </ul>
+    </div>
+    <body>
+        <h3>Age</h3>
+        <input id="text1"  placeholder="Type Your Age">
+        <button onclick="fn1()" id="butn1">click here</button>
+    </body>
+    <script>
+        
+        function fn1()
+        {
+            let age = document.getElementById("text1").value;
+            if(age>18 && age<50){
+                console.log("you can drink")
+            }
+            else if(age>50){
+                console.log("You are too old, please don't drink")
+            }
+            else{
+                console.log('Grow up Kid')
+            }
+            
+        }
+
+    </script>
+</body>
+
+</html>

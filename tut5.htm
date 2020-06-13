@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>This is form Title</h2>
+    <form action="backend.php">
+        <label for="Name">Name</label>
+        <div>
+            <input type="text" name="Name" id="Name">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="MyRole">
+        </div>
+        <br>
+        <div>
+            email: <input type="email" name="MyEmail">
+        </div>
+        <br>
+        <div>
+            Date:<input type="date" name="MyDate">
+        </div>
+        <br>
+        <div>
+            Bonous:<input type="number" name="MyBonous">
+        </div>
+        <br>
+        <div>
+            Are you eligible?:<input type="checkbox" name="MyEligibility" checked>
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="MyGender"> Female <input type="radio" name="MyGender"> Tiktoker <input
+            type="radio" name="MyGender">
+        </div>
+        <br>
+        <div>
+            Write about yourself: <br>
+            <textarea name="MyTextarea" cols="60" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="car">car</label>
+            <select 
+            name="mycar" id="car">
+            <option value="indica">indca</option>
+            <option value="swift"selected>swift</option>
+
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
